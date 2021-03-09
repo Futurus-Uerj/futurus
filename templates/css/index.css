@@ -1,0 +1,81 @@
+*{margin: 0; padding: 0;}
+/* body {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider {
+    width: 80%;
+    max-width: 500px;
+    height: 25vw;
+    max-height: 150px;
+
+    position: relative;
+}
+
+#slider img{
+    opacity: 0;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    right: -400px;
+    top: 20px;
+
+    object-fit: cover;
+
+    transition: opacity 800ms;
+}
+
+#slider img.selected { 
+    opacity: 1;
+} */
+
+/*propriedades do topo */
+header{width: 100%; height: 100px; background-color: #fff; position: relative; top: 0%;}
+
+/*propriedades da logo */
+.logo{position: absolute; width: 500px; left: initial; height: auto;top: 0%; bottom: 0%; padding: 10px;}
+.logo img{width: 60%;}
+
+/*propriedades do fundo */
+.fundo{position: relative; width: 100%; height: 100%;top: 0%; bottom: 50%; right: -300px; bottom: -40px;}
+.fundo img{width: 60%;} 
+
+/*propriedades do menu */
+nav {position: absolute; right: 30px; background: #d8d6d6; bottom: 0px;}
+nav ul li {float: left; color: #fff ; width: auto ; margin: 0.8em ; font-size: 1.5em ; font-family: Verdana, Geneva, Tahoma, sans-serif ; list-style: none;}
+nav ul li a {text-decoration: none; color: #c10016; }
+nav ul li a:hover{color: hotpink;}
+
+/*propriedades da imagem principal */
+#banner{width: 100%;}
+#banner img{width: 100%; margin-bottom: 0%;}
+
+/*propriedades da chamada */
+#chamada {
+text-align: center;
+color: #c10016;
+padding: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+}
+
+/*propriedades do texto */
+#texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    max-width: 80%;
+    margin-left: 110px;
+}
+
+.row {
+    align-items: center;
+    padding: 40x 10px;
+    width: 100%;
+    display: table;
+}

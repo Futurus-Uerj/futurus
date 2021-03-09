@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="css/contato.css" rel="stylesheet" type="text/css"/>
+    <title>Futurus</title>
+    <style>
+        /* para celular: */
+ [class*="col-"] {
+   width: 100%;
+ }
+        @media only screen and (min-width: 600px) {
+   /* para tablets: */
+   .col-s-1 {width: 8.33%;}
+   .col-s-2 {width: 16.66%;}
+   .col-s-3 {width: 25%;}
+   .col-s-4 {width: 33.33%;}
+   .col-s-5 {width: 41.66%;}
+   .col-s-6 {width: 50%;}
+   .col-s-7 {width: 58.33%;}
+   .col-s-8 {width: 66.66%;}
+   .col-s-9 {width: 75%;}
+   .col-s-10 {width: 83.33%;}
+   .col-s-11 {width: 91.66%;}
+   .col-s-12 {width: 100%;}
+ }
+ @media only screen and (min-width: 768px) {
+   /* para desktop: */
+   .col-1 {width: 8.33%;}
+   .col-2 {width: 16.66%;}
+   .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.66%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 66.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+   .col-12 {width: 100%;}
+ }
+     </style>
+</head>
+<body>
+    <div class="containerPrincipal">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/Logo.png" alt="logo site">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="app.html">App Futurus Infância</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="educacao.html">Educação</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="row">
+            <form action="/action_page.php">
+                <label for="fname">Nome:</label><br>
+                <input type="text" id="nome" name="nome" value=""><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" value=""><br>
+                <label for="fname">Mensagem:</label><br>
+                <input type="text" id="mensagem" name="mensagem" cols="30" rowls="30"><br><br>
+                
+                <input type="submit" value="enviar">
+              </form>
+        </div>
+        
+        <footer>
+            <dl>
+                <dt>Email</dt>
+                <dd>futurus.uerj@gmail.com</dd>
+                <br/>
+            </dl>
+
+        </footer>
+        
+    
+    
+</body>
+</html>

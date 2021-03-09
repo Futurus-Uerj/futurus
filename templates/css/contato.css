@@ -1,0 +1,52 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px #999;
+}
+
+input, textarea {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 1em;
+    margin-left: 15px;
+    font: 1em verdana;
+    border: 1px solid #999;
+}
+
+input:focus, textarea {
+    border-color: #c10016 !important;
+
+}
+
+input:invalid, textarea:invalid {
+    border-color: rgb(253, 237, 10);
+    border: 5px;
+}
+
+input:valid, textarea:valid {
+    border-color: rgb(204, 57, 20);
+}
+
+label {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+button {
+    background-color: #fff;
+    border: 1px solid #c10016;
+    color: #c10016;
+    font-weight: bold;
+    padding: 10x;
+    border-radius: 3px;
+}
+button:hover {
+background-color: hotpink;
+color: #fff;
+cursor: pointer;
+}
+
+footer{
+    padding: 15px;
+    margin-left: 335px;;
+}
